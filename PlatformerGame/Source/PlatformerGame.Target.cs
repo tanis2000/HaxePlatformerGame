@@ -22,6 +22,7 @@ public class PlatformerGameTarget : TargetRules
 	{
         OutExtraModuleNames.Add("PlatformerGame");
 	}
+	/*
     public override List<UnrealTargetPlatform> GUBP_GetPlatforms_MonolithicOnly(UnrealTargetPlatform HostPlatform)
     {
         List<UnrealTargetPlatform> Platforms = null;
@@ -62,4 +63,5 @@ public class PlatformerGameTarget : TargetRules
     {
         return new List<UnrealTargetConfiguration> { UnrealTargetConfiguration.Development, UnrealTargetConfiguration.Test };
     }
+	*/
 }

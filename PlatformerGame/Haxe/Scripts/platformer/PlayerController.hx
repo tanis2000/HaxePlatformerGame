@@ -1,6 +1,6 @@
 package platformer;
 import unreal.*;
-import unreal.gamemenubuilder.IGameMenuBuilderModule;
+//import unreal.gamemenubuilder.IGameMenuBuilderModule;
 
 using unreal.CoreAPI;
 
@@ -20,7 +20,7 @@ class PlayerController extends APlayerController {
 
     //Build menu only after game is initialized
     // @note Initialize in FPlatformerGameModule::StartupModule is not enough - it won't execute in cooked game
-    IGameMenuBuilderModule.Get();
+    //IGameMenuBuilderModule.Get();
     PlatformerIngameMenu = FPlatformerIngameMenu.createNew().toSharedPtr();
     PlatformerIngameMenu.Get().MakeMenu(this);
 

@@ -22,10 +22,12 @@ public class PlatformerGameEditorTarget : TargetRules
 	{
 		OutExtraModuleNames.Add("PlatformerGame");
     }
+	/*
     public override GUBPProjectOptions GUBP_IncludeProjectInPromotedBuild_EditorTypeOnly(UnrealTargetPlatform HostPlatform)
     {
         var Result = new GUBPProjectOptions();
         Result.bIsPromotable = true;
         return Result;
     }
+	*/
 }
